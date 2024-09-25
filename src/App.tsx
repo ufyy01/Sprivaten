@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
 	return (
-		<div className="w-11/12 mx-auto h-screen lg:overflow-hidden">
+		<div className="hero w-11/12 mx-auto h-screen lg:overflow-hidden">
 			<Navbar />
 			<Hero />
 		</div>
