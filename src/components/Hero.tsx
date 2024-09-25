@@ -12,7 +12,7 @@ const Hero = () => {
 	return (
 		<div className="h-screen lg:flex items-center gap-40 pb-5 pt-16 lg:pt-0">
 			<div
-				className="lg:w-5/12 lg:ms-10"
+				className="w-full lg:w-5/12 lg:ms-10"
 				data-aos="zoom-out-left"
 				data-aos-duration="1000">
 				<h1 className="font-bold text-3xl lg:text-3xl xl:text-5xl">
