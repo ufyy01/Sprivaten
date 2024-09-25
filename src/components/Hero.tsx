@@ -29,7 +29,7 @@ const Hero = () => {
 					<Button className="bg-[#00A0C1] rounded-3xl">Get Quote Now</Button>
 					<Button
 						data-aos="zoom-in"
-						className="text-[#00A0C1] rounded-3xl px-5 border-2 border-[#00A0C1]"
+						className="text-[#00A0C1] rounded-3xl px-5 border-2 border-[#00A0C1] bg-transparent"
 						variant="outline">
 						Learn More
 					</Button>
