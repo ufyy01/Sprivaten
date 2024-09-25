@@ -91,7 +91,7 @@ const HeroForm = () => {
 								<FormItem className="my-2">
 									<FormLabel>Department* </FormLabel>
 									<FormControl>
-										<Select {...field}>
+										<Select onValueChange={field.onChange} value={field.value}>
 											<SelectTrigger>
 												<SelectValue placeholder="Please select" />
 											</SelectTrigger>
@@ -118,7 +118,7 @@ const HeroForm = () => {
 								<FormItem>
 									<FormLabel>Time*</FormLabel>
 									<FormControl>
-										<Select {...field}>
+										<Select onValueChange={field.onChange} value={field.value}>
 											<SelectTrigger>
 												<SelectValue placeholder="4:00 Available" />
 											</SelectTrigger>
