@@ -17,7 +17,7 @@ const Hero = () => {
 				data-aos-duration="1000">
 				<h1 className="font-bold text-3xl lg:text-3xl xl:text-5xl">
 					Drive More Customers
-					<br /> Through Digital
+					<br className="hidden lg:block" /> Through Digital
 				</h1>
 				<p className="mt-4 text-[737373]">
 					We know how large objects will act, but things on a small scale
